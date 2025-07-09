@@ -1,4 +1,4 @@
-# Madduck Mobile Automation Projesi
+# Mobile Automation Projesi
 
 ## Genel Bakış
 
