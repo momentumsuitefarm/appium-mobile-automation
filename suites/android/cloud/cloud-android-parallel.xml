@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CloudAndroidParallelSuite" parallel="tests" thread-count="3">
+    <test name="Android-4034">
+        <parameter name="platform" value="android"/>
+        <parameter name="runMode" value="CLOUD"/>
+        <parameter name="deviceId" value="4034"/>
+        <classes>
+            <class name="org.example.tests.BtcAITests.Android.LoginTest"/>
+            <class name="org.example.tests.MadduckTests.SpeedReadingoTest"/>
+        </classes>
+    </test>
+    <test name="Android-4035">
+        <parameter name="platform" value="android"/>
+        <parameter name="runMode" value="CLOUD"/>
+        <parameter name="deviceId" value="4035"/>
+        <classes>
+            <class name="org.example.tests.BtcAITests.Android.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Android-4039">
+        <parameter name="platform" value="android"/>
+        <parameter name="runMode" value="CLOUD"/>
+        <parameter name="deviceId" value="4039"/>
+        <classes>
+            <class name="org.example.tests.BtcAITests.Android.LoginTest"/>
+        </classes>
+    </test>
+</suite>

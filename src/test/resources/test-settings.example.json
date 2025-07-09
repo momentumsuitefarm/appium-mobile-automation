@@ -1,0 +1,35 @@
+{
+  "runMode": "LOCAL",
+  "LOCAL": {
+    "host": "http://127.0.0.1:4723/wd/hub",
+    "android": {
+      "platform": "android",
+      "deviceName": "YOUR_ANDROID_DEVICE_NAME",
+      "udid": "YOUR_ANDROID_UDID",
+      "appPath": "/path/to/your/app.apk"
+    },
+    "ios": {
+      "platform": "ios",
+      "deviceName": "YOUR_IOS_DEVICE_NAME",
+      "udid": "YOUR_IOS_UDID",
+      "appPath": "/path/to/your/app.ipa"
+    }
+  },
+  "CLOUD": {
+    "host": "https://console.momentumsuite.com/gateway/wd/hub",
+    "momentum": {
+      "user": "YOUR_EMAIL@example.com",
+      "token": "YOUR_TOKEN"
+    },
+    "android": {
+      "app": "YOUR_CLOUD_APP_ID",
+      "deviceList": [DEVICE_ID_1, DEVICE_ID_2, DEVICE_ID_3],
+      "deviceName": ""
+    },
+    "ios": {
+      "app": "",
+      "deviceList":[],
+      "deviceName": ""
+    }
+  }
+} 

@@ -89,3 +89,4 @@ package-lock.json
 *.bak
 
 # End of file
+src/test/resources/test-settings.json

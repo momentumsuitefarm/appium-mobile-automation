@@ -122,28 +122,28 @@ TestFlight uygulama ve test verileri için örnek:
 ### Local Single Test
 
 ```bash
-mvn test -DsuiteXmlFile=local-android.xml
+mvn test -DsuiteXmlFile=suites/android/local/local-android.xml
 ```
 
 ### Local Paralel Test
 
 ```bash
-mvn test -DsuiteXmlFile=local-android-parallel.xml
+mvn test -DsuiteXmlFile=suites/android/local/local-android-parallel.xml
 ```
 
 ### Cloud Single Test
 
 ```bash
-mvn test -DsuiteXmlFile=cloud-android.xml
+mvn test -DsuiteXmlFile=suites/android/cloud/cloud-android.xml
 ```
 
 ### Cloud Paralel Test
 
 ```bash
-mvn test -DsuiteXmlFile=cloud-android-parallel.xml
+mvn test -DsuiteXmlFile=suites/android/cloud/cloud-android-parallel.xml
 ```
 
-### iOS için de benzer şekilde `local-ios.xml`, `cloud-ios.xml`, `local-ios-parallel.xml`, `cloud-ios-parallel.xml` kullanılabilir.
+### iOS için de benzer şekilde `suites/ios/local/local-ios.xml`, `suites/ios/cloud/cloud-ios.xml`, `suites/ios/local/local-ios-parallel.xml`, `suites/ios/cloud/cloud-ios-parallel.xml` kullanılabilir.
 
 #### Örnek Paralel Suite:
 
