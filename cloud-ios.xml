@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CloudIOSSuite">
+    <parameter name="platform" value="ios"/>
+    <parameter name="runMode" value="CLOUD"/>
+    <parameter name="deviceId" value="4011"/>
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="CloudIOSSuite -iPhone XR">
+        <parameter name="appKey" value="GeoVision"/>
+        <classes>
+            <class name="org.example.tests.TestFlightInstallTest"/>
+            <class name="org.example.tests.MadduckTests.GeoVisionTest"/>
+        </classes>
+    </test>
+</suite>

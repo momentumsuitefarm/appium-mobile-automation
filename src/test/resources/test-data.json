@@ -1,0 +1,19 @@
+{
+  "testFlightApps": {
+    "Speed": {
+      "bundleId": "com.apple.TestFlight",
+      "appName": "Speed Readingo: Read 3x Faster",
+      "targetBundleId": "wabyilmaz.speedReadingo"
+    },
+    "GeoVision": {
+      "bundleId": "com.apple.TestFlight",
+      "appName": "AI Photo Location Finder：GeoAI",
+      "targetBundleId": "com.madduck.geovs"
+    },
+    "JobMax": {
+      "bundleId": "com.apple.TestFlight",
+      "appName": "Job Max",
+      "targetBundleId": "com.madduck.callrecorder"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+# -------------------------------
+# Java derleme çıktıları
+# -------------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# -------------------------------
+# Paketleme çıktı klasörleri
+# -------------------------------
+/target/
+/out/
+/build/
+
+# -------------------------------
+# IDE dosyaları
+# -------------------------------
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VSCode
+.vscode/
+
+# -------------------------------
+# Log dosyaları
+# -------------------------------
+*.log
+
+# -------------------------------
+# Çevresel dosyalar & local secrets
+# -------------------------------
+.env
+*.env
+*.local
+*.secret
+credentials.json
+config.properties
+
+# -------------------------------
+# OS-specific gereksizler
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Test raporları (Allure, Surefire vb)
+# -------------------------------
+allure-results/
+allure-report/
+surefire-reports/
+
+# -------------------------------
+# Node.js varsa (ör: WebDriverIO + Java mixed)
+# -------------------------------
+node_modules/
+package-lock.json
+
+# -------------------------------
+# IDE ayar dosyaları (genel)
+# -------------------------------
+*.swp
+*.swo
+
+# -------------------------------
+# Kişisel çalışma dosyaları
+# -------------------------------
+*.bak
+*.tmp
+
+# -------------------------------
+# CI/CD output
+# -------------------------------
+/output/
+
+# -------------------------------
+# Diğer örnek
+# -------------------------------
+*.log
+*.tmp
+*.bak
+
+# End of file

@@ -1,0 +1,2 @@
+Test başarısız oldu: buyBitcoinWithMarketOrder
+Hata mesajı: ❌ Element not clickable: By.xpath: //XCUIElementTypeButton[@name='BTC/TRY']

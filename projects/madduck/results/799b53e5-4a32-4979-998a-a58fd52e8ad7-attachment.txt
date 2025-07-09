@@ -1,0 +1,2 @@
+Test başarısız oldu: testParaYatirmaFlow
+Hata mesajı: ❌ Element not clickable: By.xpath: //XCUIElementTypeButton[@name='Akbank']

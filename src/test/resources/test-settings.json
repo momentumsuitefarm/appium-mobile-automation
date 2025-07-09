@@ -1,0 +1,35 @@
+{
+  "runMode": "LOCAL",
+  "LOCAL": {
+    "host": "http://127.0.0.1:4723/wd/hub",
+    "android": {
+      "platform": "android",
+      "deviceName": "Samsun Galxy A30",
+      "udid": "R58M65SX54B",
+      "appPath": "/Users/hakantektas/Downloads/btc.apk"
+    },
+    "ios": {
+      "platform": "ios",
+      "deviceName": "iPhone 14",
+      "udid": "00008110-001A55D83402601E",
+      "appPath": "/Users/hakantektas/Downloads/btc.ipa"
+    }
+  },
+  "CLOUD": {
+    "host": "https://console.momentumsuite.com/gateway/wd/hub",
+    "momentum": {
+      "user": "hakan.tektas@mobven.com",
+      "token": "sncR7c22hHt4rSiaFuE2y1El52RG4cjfqQufJSb9q0A="
+    },
+    "android": {
+      "app": "ms://61b6313486ff451ca2608c505081c44b",
+      "deviceList": [4034,4035,4039],
+      "deviceName": ""
+    },
+    "ios": {
+      "app": "",
+      "deviceList":[],
+      "deviceName": ""
+    }
+  }
+}

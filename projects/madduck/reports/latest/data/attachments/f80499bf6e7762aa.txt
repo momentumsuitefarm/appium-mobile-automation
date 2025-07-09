@@ -1,0 +1,2 @@
+Test başarısız oldu: onboardingRetry
+Hata mesajı: ❌ Element not clickable: AppiumBy.accessibilityId: BtcTurk Ai Assistant

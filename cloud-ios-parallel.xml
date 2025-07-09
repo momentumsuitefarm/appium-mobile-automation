@@ -1,0 +1,66 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CloudIosParallelSuite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+<!--    <test name="CloudIosParallelSuite - iPhone 14 Pro">
+        <parameter name="platform" value="ios"/>
+        <parameter name="runMode" value="CLOUD"/>
+        <parameter name="deviceId" value="4060"/>
+        <parameter name="appKey" value="GeoVision"/>
+        <classes>
+            <class name="org.example.tests.TestFlightInstallTest"/>
+            <class name="org.example.tests.MadduckTests.GeoVisionTest"/>
+        </classes>
+    </test>
+    <test name="CloudIosParallelSuite - iPhone 16">
+        <parameter name="platform" value="ios"/>
+        <parameter name="runMode" value="CLOUD"/>
+        <parameter name="deviceId" value="4040"/>
+        <parameter name="appKey" value="GeoVision"/>
+        <classes>
+            <class name="org.example.tests.TestFlightInstallTest"/>
+            <class name="org.example.tests.MadduckTests.GeoVisionTest"/>
+        </classes>
+    </test>
+    <test name="CloudIosParallelSuite - iPhone 16 pro Max">
+        <parameter name="platform" value="ios"/>
+        <parameter name="runMode" value="CLOUD"/>
+        <parameter name="deviceId" value="4033"/>
+        <parameter name="appKey" value="GeoVision"/>
+        <classes>
+            <class name="org.example.tests.TestFlightInstallTest"/>
+            <class name="org.example.tests.MadduckTests.GeoVisionTest"/>
+        </classes>
+    </test>
+    <test name="CloudIosParallelSuite - iPhone XR">
+        <parameter name="platform" value="ios"/>
+        <parameter name="runMode" value="CLOUD"/>
+        <parameter name="deviceId" value="4011"/>
+        <parameter name="appKey" value="GeoVision"/>
+        <classes>
+            <class name="org.example.tests.TestFlightInstallTest"/>
+            <class name="org.example.tests.MadduckTests.GeoVisionTest"/>
+        </classes>
+    </test>-->
+    <test name="CloudIosParallelSuite - iPhone 15 Pro">
+        <parameter name="platform" value="ios"/>
+        <parameter name="runMode" value="CLOUD"/>
+        <parameter name="deviceId" value="4067"/>
+        <parameter name="appKey" value="GeoVision"/>
+        <classes>
+            <class name="org.example.tests.TestFlightInstallTest"/>
+            <class name="org.example.tests.MadduckTests.GeoVisionTest"/>
+        </classes>
+    </test>
+    <test name="CloudIosParallelSuite - iPhone 7">
+        <parameter name="platform" value="ios"/>
+        <parameter name="runMode" value="CLOUD"/>
+        <parameter name="deviceId" value="4015"/>
+        <parameter name="appKey" value="GeoVision"/>
+        <classes>
+            <class name="org.example.tests.TestFlightInstallTest"/>
+            <class name="org.example.tests.MadduckTests.GeoVisionTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CloudAndroidSuite" parallel="false">
+    <parameter name="platform" value="android"/>
+    <parameter name="runMode" value="CLOUD"/>
+    <parameter name="deviceId" value="4034"/>
+
+    <test name="CloudAndroidTest">
+        <classes>
+            <class name="org.example.tests.BtcAITests.Android.LoginTest"/>
+        </classes>
+    </test>
+</suite>

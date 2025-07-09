@@ -1,0 +1,9 @@
+Test başarısız oldu: buyBitcoinWithMarketOrder
+Hata mesajı: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '11.0.15.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [002b143a-36bf-415d-8ab2-7297e8d2b8ca, findElement {using=accessibility id, value=İşlem başarıyla gerçekleştirildi}]
+Capabilities {appium:app: https://console.momentumsui..., appium:autoAcceptAlerts: true, appium:autoDismissAlerts: true, appium:automationName: XCUITest, appium:databaseEnabled: false, appium:deviceName: 00008120-000264103433401E, appium:fullReset: true, appium:javascriptEnabled: true, appium:language: tr, appium:locale: tr_TR, appium:locationContextEnabled: false, appium:networkConnectionEnabled: false, appium:noReset: false, appium:takesScreenshot: true, appium:udid: 00008120-000264103433401E, appium:wdaLocalPort: 6060, appium:webStorageEnabled: false, appium:webkitDebugProxyPort: 6060, momentum:options: {gw: 4060, token: sncR7c22hHt4rSiaFuE2y1El52R..., user: hakan.tektas@mobven.com}, platformName: IOS}
+Session ID: 002b143a-36bf-415d-8ab2-7297e8d2b8ca
